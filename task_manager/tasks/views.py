@@ -5,7 +5,7 @@ from .forms import TaskForm
 from django.contrib.auth.forms import UserCreationForm
 
 def home(request):
-    return render(request,'home.html')  # Redirect to task_list view
+    return render(request,'home.html')  
 
 
 
